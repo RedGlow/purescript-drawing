@@ -1,13 +1,13 @@
 {
   "private": true,
   "scripts": {
-    "clean": "rimraf output && rimraf .pulp-cache",
-    "build": "pulp build -- --censor-lib --strict",
-    "example": "pulp build -I example -O --to html/index.js"
+    "clean": "rimraf output",
+    "build": "spago build",
+    "example": "parcel example/index.html --open"
   },
   "devDependencies": {
-    "pulp": "^12.2.0",
-    "purescript-psa": "^0.6.0",
-    "rimraf": "^2.6.2"
+    "parcel": "^1.12.4",
+    "rimraf": "^2.6.2",
+    "spago": "^0.14.0"
   }
 }

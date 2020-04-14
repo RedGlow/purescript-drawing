@@ -5,3 +5,6 @@ html/index.js
 .pulp-cache/
 .psc-ide-port
 .psc-package/
+.spago
+.cache
+dist
